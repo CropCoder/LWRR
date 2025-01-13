@@ -1,7 +1,7 @@
 ##########################################################
 ## Copyright (c) NWAFU Wheat Bioincloud.lab 2022-2025
 ##      Project: LWDR
-##  Description: 关于页面-展示小麦条锈病
+##  Description: About
 ##         Date: 
 ##       Author: Jewin ( zaojewin@icloud.com )
 ##      Version: 1.0.0
