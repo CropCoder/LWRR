@@ -2,15 +2,13 @@
 ## Copyright (c) NWAFU Wheat Bioincloud.lab 2022-2025
 ##      Project: LWDR
 ##  Description: About
-##         Date: 
+##         Date: 2024.10.10
 ##       Author: Jewin ( zaojewin@icloud.com )
 ##      Version: 1.0.0
 ##########################################################
 
 mod_about_UI <- function(id) {
   ns <- NS(id)
-  
-  
   
   tagList(
       tags$img(src = "fig/about-1.png", style = "width: 100%;"),
