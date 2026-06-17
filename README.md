@@ -25,6 +25,11 @@
 
 ---
 
+<img width="1304" height="654" alt="image" src="https://github.com/user-attachments/assets/c3021c6f-5314-4a38-a148-b6a88206d482" />
+https://doi.org/10.1007/s44154-025-00232-x
+
+
+
 ## 📖 Table of Contents
 
 - [Introduction](#introduction)
