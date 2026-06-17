@@ -1,0 +1,127 @@
+/* styles.css */
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blue;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .header-title {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 1.2;
+    letter-spacing: 2px;
+  }
+
+  .header-description {
+    font-style: italic;
+    font-size: 16px;
+  }
+
+.navbar-nav {
+                float: none;
+                margin: 0 auto;
+                display: table;
+                table-layout: fixed;
+            }
+            
+.navbar-nav > li {
+                float: none;
+                display: table-cell;
+                vertical-align: middle;
+            }
+            
+            .navbar-custom {
+    background-color: #203864;
+    border-color: #203864;
+}
+
+.navbar-custom .navbar-brand, 
+.navbar-custom .navbar-nav > li > a {
+    color: white;
+}
+
+.navbar-custom .navbar-nav > li > a:hover, 
+.navbar-custom .navbar-nav > li > a:focus {
+    color: #d5d5d5;
+}
+
+.navbar-custom .navbar-nav > .active > a, 
+.navbar-custom .navbar-nav > .active > a:hover, 
+.navbar-custom .navbar-nav > .active > a:focus {
+    color: #d5d5d5;
+    background-color: #203864;
+}
+
+.navbar-custom .navbar-nav > li > a {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.scroll-to-top-btn {
+          display: inline-block;
+          position: fixed;
+          bottom: 20px;
+          right: 20px;
+          z-index: 9999;
+          cursor: pointer;
+          background-color: #f3f2f1;
+          color: white;
+          padding: 10px 20px;
+          border-radius: 5px;
+          transition: all 0.3s ease-in-out;
+        }
+
+.scroll-to-top-btn:hover {
+          background-color: #f3f2f1;
+        }
+
+.footer {
+        color: #000000;
+        background-color: #f3f2f1;
+        padding: 10px;
+        font-size: 16px;
+        text-align: center;
+      }
+      
+.logo-img {
+        width: 200px;
+        transition: transform 0.3s ease;
+      }
+      
+.logo-img:hover {
+        transform: scale(0.95);
+      }
+      
+      
+.home-card{
+        width: 200px;
+        transition: transform 0.2s ease;
+      }
+.home-card:hover {
+        transform: scale(0.98);
+      }
+      
+            
+h3 {
+  position: relative;
+  padding-left: 20px; /* Space for the blue rectangle */
+  margin-top: 20px; /* Add 20px top margin */
+  margin-bottom: 20px; /* Add 20px bottom margin */
+}
+
+h3::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 10px;
+  height: 100%;
+  background-color: #006d87;
+}
+
